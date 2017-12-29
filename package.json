@@ -2,7 +2,8 @@
   "name": "status-contracts",
   "version": "1.0.0",
   "scripts": {
-    "solidity-coverage": "./node_modules/.bin/solidity-coverage"
+    "test": "./node_modules/.bin/truffle test --network test",
+    "coverage": "./node_modules/.bin/solidity-coverage"
   },
   "repository": {
     "type": "git",
